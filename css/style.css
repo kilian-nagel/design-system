@@ -8,3 +8,8 @@
     box-sizing: border-box;
 }
 
+body {
+    font-weight: 700;
+    color: white;
+    background-color: darkblue;
+}
