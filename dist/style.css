@@ -522,10 +522,6 @@ video {
   display: flex;
 }
 
-.min-w-250 {
-  min-width: 250px;
-}
-
 .max-w-2xl {
   max-width: 42rem;
 }
@@ -550,8 +546,20 @@ video {
   justify-content: space-between;
 }
 
+.gap-3 {
+  gap: 0.75rem;
+}
+
 .gap-4 {
   gap: 1rem;
+}
+
+.gap-2 {
+  gap: 0.5rem;
+}
+
+.gap-1 {
+  gap: 0.25rem;
 }
 
 .rounded-md {
