@@ -1,123 +1,115 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="stylesheet" href="./dist/style.css" />
-    <title>Document</title>
-  </head>
-  <body>
-    <header
-      class="mx-auto flex max-w-2xl items-center justify-between p-4 px-6"
-    >
-      <div class="profile flex items-center gap-4">
-        <i class="fa-solid fa-user fa-xl" style="color: #ffffff"></i>
-        <div>
-          <p class="text-white-600 text-sm font-medium">Hey !</p>
-          <p>John Doe</p>
-        </div>
-      </div>
-      <i class="fa-solid fa-ellipsis" style="color: #ffffff"></i>
-    </header>
-    <main class="p-4">
-      <div
-        class="balance mx-auto max-w-2xl rounded-md bg-white/30 p-4 px-6 backdrop-blur-md"
-      >
-        <div class="total-balance pb-7">
-          <p class="text-darkblue pb-1 text-sm font-medium">your balance</p>
-          <p class="text-darkblue text-4xl">$2000.00</p>
-        </div>
-        <div class="details flex justify-between">
-          <div class="income">
-            <p class="text-darkblue text-sm font-medium">Income</p>
-            <p class="text-darkblue text-lg">$1,132.00</p>
-          </div>
-          <div class="separator"></div>
-          <div class="outcome">
-            <p class="text-darkblue text-sm font-medium">Outcome</p>
-            <p class="text-darkblue text-lg">$1,600.00</p>
-          </div>
-        </div>
-      </div>
-      <div
-        class="actions justify-stretch align-stretch mx-auto flex max-w-2xl gap-4 pt-7"
-      >
-        <div
-          class="btn-option flex-1"
-        >
-          <div>
-            <i class="fa-solid fa-share fa-lg" style="color: #ffffff"></i>
-          </div>
-          <p>Send</p>
-        </div>
-        <div
-          class="btn-option flex-1"
-        >
-          <div>
-            <i class="fa-solid fa-download fa-lg" style="color: #ffffff"></i>
-          </div>
-          <p>Request</p>
-        </div>
-        <div
-          class="btn-option flex-1"
-        >
-          <div>
-            <i class="fa-solid fa-ellipsis fa-lg" style="color: #ffffff"></i>
-          </div>
-          <p>More</p>
-        </div>
-      </div>
-      <div class="transactions mx-auto max-w-2xl pt-8">
-        <h2 class="text-4xl">Transactions</h2>
-        <p class="text-sm font-medium">Today, 20 sep</p>
-        <div class="content pt-4">
-          <div
-            class="transaction"
-          >
-            <div class="align-center flex justify-center gap-4">
-              <div>
-                <i
-                  class="fa-solid fa-ellipsis fa-lg"
-                  style="color: #ffffff"
-                ></i>
-              </div>
-              <div>
-                <p>Uber eats</p>
-                <p class="text-sm font-medium">Debit card</p>
-              </div>
-            </div>
-            <div>
-              <p>-$31,76</p>
-              <p class="text-sm font-medium">3:45pm</p>
-            </div>
-          </div>
-          <div
-            class="transaction"
-          >
-            <div class="align-center flex justify-center gap-4">
-              <div>
-                <i
-                  class="fa-solid fa-ellipsis fa-lg"
-                  style="color: #ffffff"
-                ></i>
-              </div>
-              <div>
-                <p>Amazon</p>
-                <p class="text-sm font-medium">Debit card</p>
-              </div>
-            </div>
-            <div>
-              <p>-$20,50</p>
-              <p class="text-sm font-medium">7:45pm</p>
-            </div>
-          </div>
-        </div>
-      </div>
-    </main>
-    <script
-      src="https://kit.fontawesome.com/1468460d46.js"
-      crossorigin="anonymous"
-    ></script>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="./dist/style.css" />
+		<title>Document</title>
+	</head>
+	<body>
+		<header
+			class="mx-auto flex max-w-2xl items-center justify-between p-4 px-6">
+			<div class="profile flex items-center gap-4">
+				<i class="fa-solid fa-user fa-xl" style="color: #ffffff"></i>
+				<div>
+					<p class="text-white-600 text-sm font-medium">Hey !</p>
+					<p>John Doe</p>
+				</div>
+			</div>
+			<i class="fa-solid fa-ellipsis" style="color: #ffffff"></i>
+		</header>
+		<main class="p-4">
+			<div
+				class="balance mx-auto max-w-2xl rounded-md bg-white/30 p-4 px-6 backdrop-blur-md">
+				<div class="total-balance pb-7">
+					<p class="text-darkblue pb-1 text-sm font-medium">
+						your balance
+					</p>
+					<p class="text-darkblue text-4xl">$2000.00</p>
+				</div>
+				<div class="details flex justify-between">
+					<div class="income">
+						<p class="text-darkblue text-sm font-medium">Income</p>
+						<p class="text-darkblue text-lg">$1,132.00</p>
+					</div>
+					<div class="separator"></div>
+					<div class="outcome">
+						<p class="text-darkblue text-sm font-medium">Outcome</p>
+						<p class="text-darkblue text-lg">$1,600.00</p>
+					</div>
+				</div>
+			</div>
+			<div
+				class="actions justify-stretch align-stretch mx-auto flex max-w-2xl gap-4 pt-7">
+				<div class="btn-option flex-1">
+					<div>
+						<i
+							class="fa-solid fa-share fa-lg"
+							style="color: #ffffff"></i>
+					</div>
+					<p>Send</p>
+				</div>
+				<div class="btn-option flex-1">
+					<div>
+						<i
+							class="fa-solid fa-download fa-lg"
+							style="color: #ffffff"></i>
+					</div>
+					<p>Request</p>
+				</div>
+				<div class="btn-option flex-1">
+					<div>
+						<i
+							class="fa-solid fa-ellipsis fa-lg"
+							style="color: #ffffff"></i>
+					</div>
+					<p>More</p>
+				</div>
+			</div>
+			<div class="transactions mx-auto max-w-2xl pt-8">
+				<h2 class="text-4xl">Transactions</h2>
+				<p class="text-sm font-medium">Today, 20 sep</p>
+				<div class="content pt-4">
+					<div class="transaction">
+						<div class="align-center flex justify-center gap-4">
+							<div>
+								<i
+									class="fa-solid fa-ellipsis fa-lg"
+									style="color: #ffffff"></i>
+							</div>
+							<div>
+								<p>Uber eats</p>
+								<p class="text-sm font-medium">Debit card</p>
+							</div>
+						</div>
+						<div>
+							<p>-$31,76</p>
+							<p class="text-sm font-medium">3:45pm</p>
+						</div>
+					</div>
+					<div class="transaction">
+						<div class="align-center flex justify-center gap-4">
+							<div>
+								<i
+									class="fa-solid fa-ellipsis fa-lg"
+									style="color: #ffffff"></i>
+							</div>
+							<div>
+								<p>Amazon</p>
+								<p class="text-sm font-medium">Debit card</p>
+							</div>
+						</div>
+						<div>
+							<p>-$20,50</p>
+							<p class="text-sm font-medium">7:45pm</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</main>
+		<script
+			src="https://kit.fontawesome.com/1468460d46.js"
+			crossorigin="anonymous"></script>
+	</body>
 </html>
