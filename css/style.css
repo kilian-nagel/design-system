@@ -2,25 +2,25 @@
 @tailwind components;
 @tailwind utilities;
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
+@layer base {
+	* {
+		margin: 0;
+		padding: 0;
+		box-sizing: border-box;
+	}
+	
+	body {
+		font-weight: 700;
+		color: white;
+		background-color: darkblue;
+	}
 }
 
-body {
-  font-weight: 700;
-  color: white;
-  background-color: darkblue;
-}
-
-@layer base {}
-
-@layer components{
-  .transaction {
-    @apply flex justify-between rounded-md bg-white/30 p-4 mt-4 backdrop-blur-md;
-  }
-  .btn-option {
-    @apply flex flex-col items-center justify-center gap-1 rounded-md bg-white/30 p-4 backdrop-blur-md
-  }
+@layer components {
+	.transaction {
+		@apply mt-4 flex justify-between rounded-md bg-white/30 p-4 backdrop-blur-md;
+	}
+	.btn-option {
+		@apply flex flex-col items-center justify-center gap-1 rounded-md bg-white/30 p-4 backdrop-blur-md;
+	}
 }
