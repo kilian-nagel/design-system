@@ -8,7 +8,7 @@
 		padding: 0;
 		box-sizing: border-box;
 	}
-	
+
 	body {
 		font-weight: 700;
 		color: white;
@@ -22,5 +22,11 @@
 	}
 	.btn-option {
 		@apply flex flex-col items-center justify-center gap-1 rounded-md bg-white/30 p-4 backdrop-blur-md;
+	}
+}
+
+@layer utilities {
+	.text-label {
+		@apply text-sm font-medium;
 	}
 }
