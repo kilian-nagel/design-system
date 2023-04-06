@@ -8,6 +8,9 @@ module.exports = {
 			padding: {
 				'5px': '5px',
 			},
+			colors: {
+				'thamar-black': '#181818',
+			},
 		},
 		accentColor: ({ theme }) => ({
 			...theme('colors'),
