@@ -10,6 +10,8 @@ module.exports = {
 			},
 			colors: {
 				'thamar-black': '#181818',
+				'firecracker':'#f25f3a',
+				'wahoo':'#232d52'
 			},
 		},
 		accentColor: ({ theme }) => ({
@@ -175,6 +177,7 @@ module.exports = {
 			fuchsia: colors.fuchsia,
 			pink: colors.pink,
 			rose: colors.rose,
+
 		}),
 		columns: {
 			auto: 'auto',
