@@ -9,3 +9,21 @@
 		box-sizing: border-box;
 	}
 }
+
+@tailwind components {
+	.btn {
+		@apply rounded-lg bg-firecracker-400 text-white font-bold text-medium pt-3 px-5
+	}
+
+	.marker {
+		@apply rounded-lg bg-firecracker-400 text-white font-bold text-medium pt-3 px-5
+	}
+
+	.text {
+		@apply leading-4 color-slate-400/80 text-md
+	}
+
+	.title {
+		@apply text-xl font-bold
+	}
+}
